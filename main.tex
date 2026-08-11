@@ -1,0 +1,251 @@
+%-------------------------
+% Resume in LaTeX
+%-------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlength{\footskip}{4pt}
+
+% Section formatting
+\titleformat{\section}{
+\vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
+
+% ATS-readable PDF
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[2]{
+\item\small{
+\textbf{#1}{#2 \vspace{-1pt}}
+}
+}
+
+\newcommand{\resumeHeading}[4]{
+\begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{#1} & #2 \
+\textit{\small#3} & \textit{\small #4} \
+\end{tabular*}\vspace{-3pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{-2pt}\item
+\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+\textbf{#1} & #2 \
+\textit{\small#3} & \textit{\small #4} \
+\end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+\textit{\small#1} & \textit{\small #2} \
+\end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeSubItem}[2]{
+\resumeItem{#1}{#2}\vspace{1pt}
+}
+
+\renewcommand{\labelitemi}{}
+\renewcommand{\labelitemii}{$\bullet$}
+
+\newcommand{\resumeSubHeadingListStart}{
+\begin{itemize}[leftmargin=*]
+}
+
+\newcommand{\resumeSubHeadingListEnd}{
+\end{itemize}
+}
+
+\newcommand{\resumeItemListStart}{
+\begin{itemize}[leftmargin=*]
+}
+
+\newcommand{\resumeItemListEnd}{
+\end{itemize}\vspace{-2pt}
+}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+\textbf{{\huge NIALL ZHANG}} &
+Email: \href{mailto:niall[.zhang.hc@gmail.com](mailto:.zhang.hc@gmail.com)}{[niall.zhang.hc@gmail.com](mailto:niall.zhang.hc@gmail.com)} \
+
+\href{https://www.linkedin.com/in/niall-z/}{linkedin.com/in/niall-z} &
+Mobile: \href{tel:+16725152141}{+1 (672) 515-2141} \
+
+\href{https://github.com/Niall-Zhang}{github.com/Niall-Zhang} &
+Vancouver, BC \
+\end{tabular*}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{CadMakers}{Burnaby, BC}
+{Junior IT Systems Administrator}{Mar 2025 -- Present}
+\resumeItemListStart
+
+```
+\resumeItem{}
+  {Engineered \textbf{Python}- and \textbf{SQL}-based data migration and application integration workflows, extracting data from \textbf{MySQL} and structured files, performing schema mapping and hierarchical data transformations, and loading normalized datasets into enterprise platforms through \textbf{REST APIs}.}
+
+\resumeItem{}
+  {Developed API-driven and AI-enabled workflow automations across enterprise systems using \textbf{Microsoft Graph}, \textbf{Power Automate}, and LLM-based information extraction, including transforming meeting transcripts into structured customer requirements and automating project provisioning, workspace creation, and role-based access from project staffing data.}
+
+\resumeItem{}
+  {Administer identity, endpoint, and security controls for \textbf{100+ users and endpoints} across \textbf{Microsoft Entra ID}, \textbf{Intune}, and \textbf{Defender for Endpoint}, implementing Conditional Access, MFA, SSO, RBAC, compliance policies, security baselines, automated remediation, vulnerability management, and endpoint hardening.}
+
+\resumeItem{}
+  {Build and maintain enterprise endpoint and infrastructure services, including \textbf{Windows Autopilot}, application deployment and patch automation with \textbf{PowerShell}, Android kiosk configurations, and approximately \textbf{10 self-hosted Azure DevOps build/test agents} supporting CI workloads across on-premises and cloud environments.}
+```
+
+\resumeItemListEnd
+
+\resumeSubheading
+{Arspace Technology Ltd. (Start-up)}{Vancouver, BC}
+{Software Engineer (Part-Time)}{Jan 2024 -- Aug 2024}
+\resumeItemListStart
+
+```
+\resumeItem{}
+  {Built and launched a cross-platform event and social matching application for iOS and Android, developing a \textbf{Flutter} frontend and \textbf{Django REST} backend with authentication, user management, and administrative capabilities.}
+
+\resumeItem{}
+  {Integrated \textbf{OAuth}, \textbf{Stripe}, and RESTful services; designed the relational \textbf{PostgreSQL} schema and deployed application infrastructure on \textbf{Google Cloud Platform}.}
+```
+
+\resumeItemListEnd
+
+\resumeSubheading
+{New York Institute of Technology}{Vancouver, BC}
+{Teaching Assistant -- Embedded System Security}{May 2024 -- Jul 2024}
+\resumeItemListStart
+
+```
+\resumeItem{}
+  {Supported instruction for 28 graduate students in Embedded System Security through technical labs, tutorials, office hours, assignment development, and assessment.}
+```
+
+\resumeItemListEnd
+
+\resumeSubheading
+{ezSec Inc.}{Remote, Canada}
+{Cybersecurity Data Analyst Intern}{Feb 2024 -- May 2024}
+\resumeItemListStart
+
+```
+\resumeItem{}
+  {Developed a \textbf{Python}-based cyber threat intelligence pipeline to collect, normalize, and map security alerts from heterogeneous open-source data to \textbf{MITRE ATT\&CK} techniques using regex-based labeling and structured threat intelligence.}
+
+\resumeItem{}
+  {Expanded the ATT\&CK lookup dataset by \textbf{300\%} and contributed to NLP/ML-based automated threat classification using STIX attack patterns and cybersecurity alert data.}
+```
+
+\resumeItemListEnd
+
+\resumeSubheading
+{iFlytek Corp.}{Hefei, China}
+{Software Engineer Intern}{Apr 2021 -- Aug 2021}
+\resumeItemListStart
+
+```
+\resumeItem{}
+  {Developed components for a smart-city traffic enforcement system using \textbf{Java Spring Boot}, \textbf{OpenCV}, and \textbf{Vue.js}, integrating live camera analysis with backend services and reusable frontend modules.}
+
+\resumeItem{}
+  {Implemented an API-driven computer vision workflow for pedestrian-yield detection, improving detection accuracy by \textbf{25\%}.}
+```
+
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{New York Institute of Technology}{Vancouver, BC}
+{Master of Science in Cybersecurity}{Jan 2023 -- Oct 2024}
+
+\resumeSubheading
+{University of British Columbia}{Vancouver, BC}
+{Bachelor of Science in Physics}{Sep 2018 -- May 2022}
+
+\resumeSubHeadingListEnd
+
+%-----------PUBLICATIONS-----------------
+\section{Publications}
+\small
+\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt]
+
+\item
+\textbf{Haochen Zhang}, Haoyang Hong, Binghan Shen, Marlon Esteban Brenes Rojas,
+Ezzeldin Tahoun, and Umme Zakia,
+\href{https://ieeexplore.ieee.org/abstract/document/11381086}
+{\textbf{``NLP-based Cyber Threat Data Analysis with MITRE ATT&CK Techniques,''}}
+\textit{IEEE International Conference and Workshop on Computing and Communication (IEMCON)}, 2025.
+
+\end{itemize}
+
+%-----------TECHNICAL SKILLS------------
+\section{Technical Skills}
+\small
+\begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt]
+
+\item
+\textbf{Programming & Automation}: Python, PowerShell, SQL, Java, JavaScript/TypeScript, Bash, Power Automate
+
+\item
+\textbf{Cloud & Enterprise Systems}: Microsoft Azure, Microsoft 365, Microsoft Graph API, Entra ID, Intune, Azure DevOps, GCP
+
+\item
+\textbf{Security & Identity}: Defender for Endpoint, Conditional Access, MFA, SSO (SAML/OIDC), OAuth 2.0, RBAC, PIM, Vulnerability Management, EDR
+
+\item
+\textbf{Systems & DevOps}: Windows, Ubuntu Linux, Windows Autopilot, CI/CD, Azure DevOps Pipelines, REST APIs, Git
+
+\item
+\textbf{Development & Data}: Django, Node.js, React, Vue.js, Flutter, PostgreSQL, MySQL, SQL Server
+
+\end{itemize}
+
+\end{document}
