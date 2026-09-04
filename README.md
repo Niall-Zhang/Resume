@@ -1,4 +1,4 @@
-# Hello! I am Niall Zhang 张昊辰!
+# Hello! I am Niall Zhang!
 
 ## Resume
 
