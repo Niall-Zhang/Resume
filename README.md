@@ -1,134 +1,49 @@
-# Augmenter
+# Niall Zhang — Resume
 
-> **AI that synthesizes knowledge fragments to augment you.**
+This repository contains the LaTeX source code for my professional resume.
 
-Augmenter turns the small pieces of knowledge you encounter every day into something you can actually learn from.
+## About Me
 
-Searches.  
-ChatGPT conversations.  
-New words.  
-Translations.  
-Articles.  
-Ideas.  
-Notes.  
-Things you wanted to remember but never looked at again.
+I am a software and cybersecurity professional with experience in:
 
-Instead of letting those fragments disappear, Augmenter captures, understands, connects, and resurfaces them — helping you continuously learn from what you already do.
+- AI-driven automation workflows
+- Model Context Protocol (MCP) servers
+- Python and REST API development
+- Cloud and DevOps infrastructure
+- CI/CD and Azure DevOps
+- Cybersecurity operations and IAM
+- Full-stack software development
+- Machine learning and threat intelligence
 
----
+## Resume
 
-## ✨ The Idea
+The resume is written in LaTeX and optimized for:
 
-Every day, we generate hundreds of small knowledge fragments:
+- Clean, professional formatting
+- ATS readability
+- One-page technical resume layout
+- Software Engineering
+- AI / Automation
+- Cybersecurity
+- Cloud / DevOps roles
 
-- searching for an unfamiliar concept
-- asking ChatGPT a question
-- looking up an English word
-- rewriting a sentence
-- reading an interesting article
-- discovering a useful tool
-- saving a random idea
+## Technical Focus
 
-Individually, they seem insignificant.
+**Development**  
+Python, Java, JavaScript/TypeScript, React, Django, Flutter, Node.js
 
-Together, they reveal something much bigger:
+**Cloud & DevOps**  
+Azure, GCP, Azure DevOps, Docker, Git, CI/CD
 
-> **What are you trying to learn and become?**
+**Security**  
+Microsoft Entra ID, Intune, Defender, Sentinel, Conditional Access, IAM
 
-Augmenter uses AI to transform those scattered fragments into a growing personal knowledge system.
+**AI & Automation**  
+LLM-based automation, Model Context Protocol (MCP), REST APIs, internal tools and system integrations
 
-No extra study routine.
+## Build
 
-No manual knowledge management.
+To compile the resume locally:
 
-Just learn naturally from the things you already encounter.
-
----
-
-## 🧠 How It Works
-
-Augmenter is designed around four core steps:
-
-### Capture
-
-Collect knowledge fragments from the tools and platforms you already use.
-
-### Understand
-
-Use AI to identify meaning, context, topics, and learning value.
-
-### Connect
-
-Discover relationships between fragments that would otherwise remain isolated.
-
-### Augment
-
-Turn accumulated knowledge into useful summaries, reminders, insights, and learning opportunities.
-
----
-
-## 📚 Your Augmenters
-
-Instead of manually reviewing everything you saved, Augmenter synthesizes it for you.
-
-### Daily Augmenter
-
-A lightweight summary of what you encountered and learned today.
-
-### Weekly Augmenter
-
-Connections, recurring topics, and useful knowledge from your week.
-
-### Monthly Augmenter
-
-A higher-level view of what you have been exploring, learning, and becoming interested in.
-
-> **Here is your Daily Augmenter.**
-
----
-
-## 🚀 Vision
-
-Augmenter is not another note-taking app.
-
-The goal is to build an intelligent layer between your everyday digital activity and your long-term knowledge.
-
-Your browsing, searches, conversations, translations, notes, and discoveries should not disappear after you use them once.
-
-They should compound.
-
-Over time, Augmenter becomes a reflection of:
-
-- what you are learning
-- what you are curious about
-- what you repeatedly struggle with
-- what you want to remember
-- what you are becoming
-
----
-
-## 🧩 Product Direction
-
-The initial version of Augmenter will focus on a browser extension that can capture and organize knowledge fragments with minimal friction.
-
-Future directions may include:
-
-- AI-powered knowledge extraction
-- automatic categorization
-- semantic search
-- knowledge connections
-- personalized learning summaries
-- Daily / Weekly / Monthly Augmenters
-- cross-device synchronization
-- integrations with AI assistants and productivity tools
-
----
-
-## 🏗️ Project Structure
-
-```text
-Augmenter/
-├── chrome-extension/
-├── web-app/
-├── backend/
-└── README.md
+```bash
+pdflatex resume.tex
