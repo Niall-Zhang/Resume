@@ -15,6 +15,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{bold-extra}
 \input{glyphtounicode}
 
 \pagestyle{fancy}
@@ -38,8 +39,9 @@
 \setlength{\footskip}{4pt}
 
 % Sections formatting
+
 \titleformat{\section}{
-  \vspace{-3pt}\scshape\raggedright\Large
+\vspace{-3pt}\scshape\bfseries\raggedright\Large
 }{}{0em}{}[\color{black}\titlerule \vspace{-3pt}]
 
 % Ensure PDF is machine readable / ATS parsable
@@ -95,16 +97,21 @@
 
 %----------HEADING-----------------
 
-{\huge \textbf{HAOCHEN (NIALL) ZHANG}}\hfill
-Email: \href{mailto:niall.zhang.hc@gmail.com}{niall.zhang.hc@gmail.com}\\
+\begin{center}
+    {\huge \textbf{NIALL ZHANG}}\\[5pt]
 
-\href{https://www.linkedin.com/in/niall-z/}{linkedin.com/in/niall-z}
-\hfill
-Mobile: \href{tel:+16725152141}{+1 (672) 515-2141}\\
+    \small
+    \href{mailto:niall.zhang.hc@gmail.com}{niall.zhang.hc@gmail.com}
+    \enspace $|$ \enspace
+    \href{tel:+16725152141}{+1 (672) 515-2141}
+    \enspace $|$ \enspace
+    \href{https://www.linkedin.com/in/niall-z/}{LinkedIn}
+    \enspace $|$ \enspace
+    \href{https://github.com/Niall-Zhang}{GitHub}
+    \enspace $|$ \enspace
+    Vancouver, BC
+\end{center}
 
-\href{https://github.com/Niall-Zhang}{github.com/Niall-Zhang}
-\hfill
-Vancouver, BC
 
 
 %-----------EXPERIENCE-----------------
@@ -120,17 +127,19 @@ Vancouver, BC
   {Junior IT System Administrator}{Mar 2025 -- Present}
 
 \resumeItemListStart
-  \resumeItem{}
-    {Administered identity, endpoint, and security controls for over 100 users and devices across \textbf{Microsoft Entra ID}, \textbf{Intune}, \textbf{Defender}, and \textbf{Sentinel}, implementing Conditional Access, RBAC, firewall policies, vulnerability remediation, and PowerShell-based deployment.}
-    
-  \resumeItem{}
-    {Developed and debugged internal tools, system integrations, and \textbf{AI-driven automation workflows} using \textbf{Python}, \textbf{SQL}, and \textbf{REST APIs}, enabling data synchronization, schema transformation, and migration across MySQL, Azure Blob Storage, Notion, and Power BI.}
+\resumeItem{}
+{Managed identity, endpoint, and security controls for 100+ users and devices across \textbf{Microsoft Entra ID}, \textbf{Intune}, \textbf{Defender}, and \textbf{Sentinel}, supporting firewall configuration, Conditional Access, endpoint deployment, and security remediation.}
 
-  \resumeItem{}
-    {Built and maintained \textbf{CI infrastructure}, including self-hosted \textbf{Azure DevOps} agents and other build \& test pipelines.}
+\resumeItem{}
+{Built and implemented \textbf{AI-driven automation workflows} and \textbf{Model Context Protocol (MCP) servers} using \textbf{Python} and \textbf{REST APIs}, enabling LLM-based agents to access enterprise data, invoke internal services, and automate operational processes.}
 
+\resumeItem{}
+{Developed and debugged internal tools and system integrations across \textbf{MySQL}, \textbf{Azure Blob Storage}, \textbf{Notion}, and \textbf{Power BI}, supporting schema transformation, cross-platform data migration, and API-based synchronization.}
 
+\resumeItem{}
+{Built and maintained \textbf{CI/CD infrastructure}, including self-hosted \textbf{Azure DevOps} agents and automated build, test, and deployment pipelines across \textbf{on-premises} and \textbf{cloud environments}.}
 \resumeItemListEnd
+
 
 
 %---------- ARSPACE ----------
@@ -231,11 +240,9 @@ Vancouver, BC
 \small
 \begin{itemize}[leftmargin=*, itemsep=1pt, parsep=0pt]
 
-\item \textbf{Development}: Python, Java, JavaScript/TypeScript, SQL, Powershell, Django, Spring Boot, React, Vue.js, Flutter
+\item \textbf{Development}: Python, Java, JavaScript/TypeScript, React, Django, Flutter, Node.js
 
-\item \textbf{Cloud \& DevOps}: GCP, Azure DevOps, CI/CD, Git, Docker
-
-\item \textbf{Security \& IAM}: Microsoft Entra ID, Sentinel SIEM, Intune, Defender, SAML, OIDC, OAuth 2.0
+\item \textbf{Cloud \& DevOps}: GCP, Azure, Azure DevOps, Git, Docker
 
 \end{itemize}
 
